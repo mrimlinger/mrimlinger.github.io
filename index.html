@@ -1,0 +1,27 @@
+---
+layout: default
+title: Matthieu Rimlinger
+nbr_posts: 2
+---
+
+<h2>Welcome</h2>
+
+<div>
+	<p>I'm Matthieu, a french guy studying Electrical Engineering at ETH Zurich. This is my internet abode where I share some ideas and adventures. May it provide you with the information that you are looking for. </p>
+</div>
+
+<h2>Latest posts</h2>
+
+<ul class="post_list">
+  {% assign count = 0 %}
+  {% for post in site.posts %}
+    {% unless post.tags contains "album" or count >= page.nbr_posts%}
+      <li>
+        <span class="post_date">{{ post.date | date_to_string }} >> </span>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% assign count = count | plus: 1 %}
+    {% endunless %}
+  {% endfor %}
+</ul>
+

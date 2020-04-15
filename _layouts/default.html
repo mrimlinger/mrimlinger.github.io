@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+      <link rel="stylesheet" type="text/css" href="/css/main.css">
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">  
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+		<body>
+      <header>
+        <h1>Matthieu Rimlinger</h1>
+        <p>
+      </header>
+			<nav>
+	        		<a href="/">Home</a> -
+	        		<a href="/About">About</a> -
+              <a href="/blog">Blog</a> -
+              <a href="/gallery">Gallery</a>
+      </nav>
+      
+			<div class="container">
+			  {{ content }}
+      </div><!-- /.container -->
+      
+			<footer>
+        <!--
+        <p><a href="index.html">Home</a> -
+           <a href="about.html">About</a> -
+           <a href="archive.html">Archive</a> - 
+           <a href="gallery.html">Gallery</a></p>
+        -->
+        <p>Copyright © <a id="year"></a> Matthieu Rimlinger</p> 
+			</footer>
+    </body>
+    <script>
+      $(document).ready();
+      n =  new Date();
+      document.getElementById("year").innerHTML = n.getFullYear();;
+    </script>
+	</html>

@@ -1,0 +1,305 @@
+I"Â<h2 id="sous-partie-21">Sous-partie 2.1</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<h3 id="sous-sous-partie-211">Sous-sous-partie 2.1.1</h3>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<ul>
+  <li>bullet1</li>
+  <li>bullet2</li>
+</ul>
+
+<p>Test for gallery:</p>
+
+<style>
+  .image-gallery {
+    overflow: auto;
+    margin-left: 0;
+    width: 100%;
+    padding: 0;
+  }
+  .image-gallery li {
+    list-style-type: none;
+    margin: 0%;
+    margin-top: 10%;
+  }
+  .image-gallery li img {
+    max-width: 100%;
+    max-height: 39vw;
+    margin: auto;
+    display: block;
+  }
+  @media screen and (max-width: 600px) { 
+  .image-gallery li img {
+    max-width: 100%;
+    max-height: 98vw;
+    margin: auto;
+    display: block;
+  }
+</style>
+
+<ul class="image-gallery">
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2716.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2735.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2740.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2741.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2742.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2749.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2758.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2766.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2767.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2771.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2772.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2774.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2783.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2785.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2788.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2790.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2795.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2798.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2804.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2805.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2806.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2809.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2810.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2811.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2814.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2815.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2817.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2821.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2824.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2830.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/DSC_2831.jpg" />
+      </li>
+    
+  
+      <!-- if we find the folder -->
+      <li>
+        <img src="http://localhost:4000/gallery/album2/IMG_0121.jpg" />
+      </li>
+    
+  
+</ul>
+
+:ET

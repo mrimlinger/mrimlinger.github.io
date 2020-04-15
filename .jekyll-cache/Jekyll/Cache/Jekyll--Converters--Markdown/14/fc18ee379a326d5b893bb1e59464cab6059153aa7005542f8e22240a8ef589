@@ -1,0 +1,684 @@
+I"ÉG<h2 id="sous-partie-21">Sous-partie 2.1</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<h3 id="sous-sous-partie-211">Sous-sous-partie 2.1.1</h3>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<ul>
+  <li>bullet1</li>
+  <li>bullet2</li>
+</ul>
+
+<p>Test for gallery:</p>
+
+<style>
+  .image-gallery {overflow: hidden; margin-left: 0%!important;
+                  list-style-type: none; padding: 0;}
+  .image-gallery li {position: relative; float: left; display: block; 
+                     margin: 0%; margin-right: 1%; margin-top: 1%;
+                     width: 19%; padding-top: 19%; /* ensure square format of container */
+                     background-color: #dddddd;}
+  @media screen and (max-width: 600px) { 
+    .image-gallery li {position: relative; float: left; display: block; 
+                      margin: 0%; margin-right: 1%; margin-top: 1%;
+                      width: 32.3%; padding-top: 32.3%; /* ensure square format of container */
+                      background-color: #dddddd;}
+  }
+  /*.image-gallery li a {text-align: center; text-decoration: none!important; color: #777;}*/
+  /*.image-gallery li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}*/
+  .image-gallery li a img {position: absolute; 
+                           top: 50%; left: 50%; 
+                           max-height: 100%; max-width: 100%;
+                           transform: translate(-50%, -50%);
+                           display: block;}
+  /*--------------------------------------------------------------------------------------*/
+  .dark_background {
+    position: fixed; background-color: rgba(0,0,0,0.8);
+    top: 0; bottom: 0; left: 0; right: 0;
+  }
+  .full_img {
+    position: relative;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 40vw;
+    max-height: 40vw;
+    opacity: 100%;
+  }
+</style>
+
+<script>
+  function Album() {
+    this.pics = new Array();
+    this.curr_pic = -1;
+  }
+  function Disp(path, nbr) {
+    console.log("initial nbr assignment: ", nbr);
+    album.curr_pic = nbr;
+    var frame = document.getElementById("content");
+    /* dark background */
+    var background = document.createElement("div");
+    background.id = "background";
+    background.className = "dark_background";
+    frame.appendChild(background);
+    /* picture */
+    var pic = document.createElement("img");
+    pic.src = path;
+    pic.id = "pic";
+    pic.className = "full_img";
+    background.appendChild(pic);
+    /* prev & next & esc events */
+    document.addEventListener("keyup", KeyHandle);
+    document.addEventListener('touchstart', TouchHandleStart, false);
+    document.addEventListener('touchend', TouchHandleEnd, false);
+  }
+  function KeyHandle(data) { /* eventually implement debounce */
+      if (data.keyCode == 39) {
+        console.log("next");
+        Next();
+      }
+      else if (data.keyCode == 37) {
+        console.log("prev");
+        Prev();
+      }
+      else if (data.keyCode == 27) {
+        console.log("esc");
+        Escape();
+      }
+    }
+  function Next() {
+    var len = album.pics.length;
+    var nbr = album.curr_pic;
+    if (nbr<len-1) {
+      nbr += 1; album.curr_pic += 1;
+      var pic = document.getElementById("pic");
+      pic.src = album.pics[nbr];
+    }
+    else {
+      console.log("escape caled");
+      Escape();
+    }
+  }
+  function Prev() {
+    var len = album.pics.length;
+    var nbr = album.curr_pic;
+    if (nbr>0) {
+      nbr += -1; album.curr_pic += -1;
+      var pic = document.getElementById("pic");
+      pic.src = album.pics[nbr];
+    }
+    else {
+      console.log("escape caled");
+      Escape();
+    }
+  }
+  function Escape() {
+    album.curr_pic = -1;
+    var frame = document.getElementById("content");
+    var background = document.getElementById("background");
+    frame.removeChild(background);
+    /* remove eventlistener on keyboard and touchscreen */
+    document.removeEventListener("keyup", KeyHandle);
+    document.removeEventListener("touchstart", TouchHandleStart);
+    document.removeEventListener("touchend", TouchHandleEnd);
+  }
+  function TouchHandleStart(e) {
+    var touchobj = e.changedTouches[0];
+    dist = 0;
+    startX = touchobj.pageX;
+    startY = touchobj.pageY;
+    startTime = new Date().getTime(); // record time when finger first makes contact with surface
+  }
+  function TouchHandleEnd(e) {
+    var touchobj = e.changedTouches[0]
+    dist = touchobj.pageX - startX // get total dist traveled by finger while in contact with surface
+    elapsedTime = new Date().getTime() - startTime // get time elapsed
+    // check that elapsed time is within specified, horizontal dist traveled >= threshold, and vertical dist traveled <= 100
+    if (elapsedTime <= allowedTime) {
+      if (dist >= threshold && Math.abs(touchobj.pageY - startY) <= 100) {
+        console.log("successful swipe right");
+        Next();
+      }
+      else if (dist <= -threshold && Math.abs(touchobj.pageY - startY) <= 100) {
+        console.log("successful swipe left");
+        Prev();
+      }
+      else {
+        console.log("no swipe");
+      }
+    }
+  }
+</script>
+
+<script>
+  var startX, startY, dist, threshold = 150, allowedTime = 1000, elapsedTime, startTime;
+  
+
+</script>
+
+<ul class="image-gallery">
+  <script> var album = new Album(); </script>
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2716.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2716.jpg',0)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2716.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2735.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2735.jpg',1)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2735.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2740.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2740.jpg',2)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2740.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2741.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2741.jpg',3)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2741.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2742.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2742.jpg',4)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2742.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2749.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2749.jpg',5)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2749.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2758.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2758.jpg',6)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2758.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2766.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2766.jpg',7)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2766.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2767.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2767.jpg',8)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2767.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2771.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2771.jpg',9)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2771.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2772.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2772.jpg',10)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2772.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2774.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2774.jpg',11)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2774.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2783.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2783.jpg',12)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2783.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2785.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2785.jpg',13)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2785.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2788.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2788.jpg',14)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2788.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2790.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2790.jpg',15)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2790.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2795.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2795.jpg',16)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2795.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2798.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2798.jpg',17)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2798.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2804.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2804.jpg',18)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2804.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2805.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2805.jpg',19)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2805.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2806.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2806.jpg',20)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2806.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2809.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2809.jpg',21)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2809.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2810.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2810.jpg',22)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2810.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2811.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2811.jpg',23)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2811.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2814.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2814.jpg',24)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2814.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2815.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2815.jpg',25)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2815.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2817.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2817.jpg',26)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2817.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2821.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2821.jpg',27)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2821.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2824.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2824.jpg',28)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2824.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2830.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2830.jpg',29)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2830.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/DSC_2831.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/DSC_2831.jpg',30)">
+            <img src="http://localhost:4000/gallery/album2/DSC_2831.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+    
+      
+        <script> album.pics.push("http://localhost:4000/gallery/album2/IMG_0121.jpg");</script>
+        <li>
+          
+          <a onclick="Disp('/gallery/album2/IMG_0121.jpg',31)">
+            <img src="http://localhost:4000/gallery/album2/IMG_0121.jpg" alt="" title="" />
+            <!--<span></span>-->
+          </a>
+        </li>
+        
+      
+    
+  
+</ul>
+
+<script>
+
+</script>
+
+:ET

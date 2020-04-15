@@ -1,0 +1,36 @@
+<style>
+  .image-gallery {
+    overflow: auto;
+    margin-left: 0;
+    width: 100%;
+    padding: 0;
+  }
+  .image-gallery li {
+    list-style-type: none;
+    margin: 0%;
+    margin-top: 10%;
+  }
+  .image-gallery li img {
+    max-width: 100%;
+    max-height: 39vw;
+    margin: auto;
+    display: block;
+  }
+  @media screen and (max-width: 600px) { 
+  .image-gallery li img {
+    max-width: 100%;
+    max-height: 98vw;
+    margin: auto;
+    display: block;
+  }
+</style>
+
+<ul class="image-gallery">
+  {% for file in site.static_files %}
+    {% if file.path contains include.folder %}  <!-- if we find the folder -->
+      <li>
+        <img src="{{site.url}}{{ file.path | relative_url }}"/>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

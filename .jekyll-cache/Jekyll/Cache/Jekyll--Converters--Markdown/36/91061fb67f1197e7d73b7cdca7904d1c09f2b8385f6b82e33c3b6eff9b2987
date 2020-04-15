@@ -1,0 +1,559 @@
+I"ƒ<<h2 id="sous-partie-21">Sous-partie 2.1</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<h3 id="sous-sous-partie-211">Sous-sous-partie 2.1.1</h3>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<ul>
+  <li>bullet1</li>
+  <li>bullet2</li>
+</ul>
+
+<p>Test for gallery:</p>
+
+<style>
+  .image-gallery {overflow: hidden; margin-left: 0%!important;
+                  list-style-type: none; padding: 0;}
+  .image-gallery li {position: relative; float: left; display: block; 
+                     margin: 0%; margin-right: 1%; margin-top: 1%;
+                     width: 19%; padding-top: 19%; /* ensure square format of container */
+                     background-color: #dddddd;}
+  /*.image-gallery li a {text-align: center; text-decoration: none!important; color: #777;}*/
+  /*.image-gallery li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}*/
+  .image-gallery li a img {position: absolute; 
+                           top: 50%; left: 50%; 
+                           max-height: 100%; max-width: 100%;
+                           transform: translate(-50%, -50%);
+                           display: block;}   
+</style>
+
+<script>
+  function Album() {
+    this.pics = new Array();
+  }
+  function Disp() {}
+
+</script>
+
+<ul class="image-gallery">
+  <script> var album = new Album(); </script>
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2716.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2716.jpg" title="DSC_2716">
+            <img src="http://localhost:4000/gallery/album2/DSC_2716.jpg" alt="DSC_2716" title="DSC_2716" />
+            <!--<span>DSC_2716</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2735.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2735.jpg" title="DSC_2735">
+            <img src="http://localhost:4000/gallery/album2/DSC_2735.jpg" alt="DSC_2735" title="DSC_2735" />
+            <!--<span>DSC_2735</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2740.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2740.jpg" title="DSC_2740">
+            <img src="http://localhost:4000/gallery/album2/DSC_2740.jpg" alt="DSC_2740" title="DSC_2740" />
+            <!--<span>DSC_2740</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2741.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2741.jpg" title="DSC_2741">
+            <img src="http://localhost:4000/gallery/album2/DSC_2741.jpg" alt="DSC_2741" title="DSC_2741" />
+            <!--<span>DSC_2741</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2742.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2742.jpg" title="DSC_2742">
+            <img src="http://localhost:4000/gallery/album2/DSC_2742.jpg" alt="DSC_2742" title="DSC_2742" />
+            <!--<span>DSC_2742</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2749.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2749.jpg" title="DSC_2749">
+            <img src="http://localhost:4000/gallery/album2/DSC_2749.jpg" alt="DSC_2749" title="DSC_2749" />
+            <!--<span>DSC_2749</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2758.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2758.jpg" title="DSC_2758">
+            <img src="http://localhost:4000/gallery/album2/DSC_2758.jpg" alt="DSC_2758" title="DSC_2758" />
+            <!--<span>DSC_2758</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2766.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2766.jpg" title="DSC_2766">
+            <img src="http://localhost:4000/gallery/album2/DSC_2766.jpg" alt="DSC_2766" title="DSC_2766" />
+            <!--<span>DSC_2766</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2767.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2767.jpg" title="DSC_2767">
+            <img src="http://localhost:4000/gallery/album2/DSC_2767.jpg" alt="DSC_2767" title="DSC_2767" />
+            <!--<span>DSC_2767</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2771.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2771.jpg" title="DSC_2771">
+            <img src="http://localhost:4000/gallery/album2/DSC_2771.jpg" alt="DSC_2771" title="DSC_2771" />
+            <!--<span>DSC_2771</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2772.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2772.jpg" title="DSC_2772">
+            <img src="http://localhost:4000/gallery/album2/DSC_2772.jpg" alt="DSC_2772" title="DSC_2772" />
+            <!--<span>DSC_2772</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2774.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2774.jpg" title="DSC_2774">
+            <img src="http://localhost:4000/gallery/album2/DSC_2774.jpg" alt="DSC_2774" title="DSC_2774" />
+            <!--<span>DSC_2774</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2783.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2783.jpg" title="DSC_2783">
+            <img src="http://localhost:4000/gallery/album2/DSC_2783.jpg" alt="DSC_2783" title="DSC_2783" />
+            <!--<span>DSC_2783</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2785.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2785.jpg" title="DSC_2785">
+            <img src="http://localhost:4000/gallery/album2/DSC_2785.jpg" alt="DSC_2785" title="DSC_2785" />
+            <!--<span>DSC_2785</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2788.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2788.jpg" title="DSC_2788">
+            <img src="http://localhost:4000/gallery/album2/DSC_2788.jpg" alt="DSC_2788" title="DSC_2788" />
+            <!--<span>DSC_2788</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2790.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2790.jpg" title="DSC_2790">
+            <img src="http://localhost:4000/gallery/album2/DSC_2790.jpg" alt="DSC_2790" title="DSC_2790" />
+            <!--<span>DSC_2790</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2795.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2795.jpg" title="DSC_2795">
+            <img src="http://localhost:4000/gallery/album2/DSC_2795.jpg" alt="DSC_2795" title="DSC_2795" />
+            <!--<span>DSC_2795</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2798.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2798.jpg" title="DSC_2798">
+            <img src="http://localhost:4000/gallery/album2/DSC_2798.jpg" alt="DSC_2798" title="DSC_2798" />
+            <!--<span>DSC_2798</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2804.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2804.jpg" title="DSC_2804">
+            <img src="http://localhost:4000/gallery/album2/DSC_2804.jpg" alt="DSC_2804" title="DSC_2804" />
+            <!--<span>DSC_2804</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2805.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2805.jpg" title="DSC_2805">
+            <img src="http://localhost:4000/gallery/album2/DSC_2805.jpg" alt="DSC_2805" title="DSC_2805" />
+            <!--<span>DSC_2805</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2806.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2806.jpg" title="DSC_2806">
+            <img src="http://localhost:4000/gallery/album2/DSC_2806.jpg" alt="DSC_2806" title="DSC_2806" />
+            <!--<span>DSC_2806</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2809.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2809.jpg" title="DSC_2809">
+            <img src="http://localhost:4000/gallery/album2/DSC_2809.jpg" alt="DSC_2809" title="DSC_2809" />
+            <!--<span>DSC_2809</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2810.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2810.jpg" title="DSC_2810">
+            <img src="http://localhost:4000/gallery/album2/DSC_2810.jpg" alt="DSC_2810" title="DSC_2810" />
+            <!--<span>DSC_2810</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2811.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2811.jpg" title="DSC_2811">
+            <img src="http://localhost:4000/gallery/album2/DSC_2811.jpg" alt="DSC_2811" title="DSC_2811" />
+            <!--<span>DSC_2811</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2814.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2814.jpg" title="DSC_2814">
+            <img src="http://localhost:4000/gallery/album2/DSC_2814.jpg" alt="DSC_2814" title="DSC_2814" />
+            <!--<span>DSC_2814</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2815.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2815.jpg" title="DSC_2815">
+            <img src="http://localhost:4000/gallery/album2/DSC_2815.jpg" alt="DSC_2815" title="DSC_2815" />
+            <!--<span>DSC_2815</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2817.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2817.jpg" title="DSC_2817">
+            <img src="http://localhost:4000/gallery/album2/DSC_2817.jpg" alt="DSC_2817" title="DSC_2817" />
+            <!--<span>DSC_2817</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2821.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2821.jpg" title="DSC_2821">
+            <img src="http://localhost:4000/gallery/album2/DSC_2821.jpg" alt="DSC_2821" title="DSC_2821" />
+            <!--<span>DSC_2821</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2824.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2824.jpg" title="DSC_2824">
+            <img src="http://localhost:4000/gallery/album2/DSC_2824.jpg" alt="DSC_2824" title="DSC_2824" />
+            <!--<span>DSC_2824</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2830.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2830.jpg" title="DSC_2830">
+            <img src="http://localhost:4000/gallery/album2/DSC_2830.jpg" alt="DSC_2830" title="DSC_2830" />
+            <!--<span>DSC_2830</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/DSC_2831.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/DSC_2831.jpg" title="DSC_2831">
+            <img src="http://localhost:4000/gallery/album2/DSC_2831.jpg" alt="DSC_2831" title="DSC_2831" />
+            <!--<span>DSC_2831</span>-->
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <script> album.pics.append("http://localhost:4000/gallery/album2/IMG_0121.jpg");</script>
+        <!--
+        -->
+        <li>
+          <a href="/gallery/album2/IMG_0121.jpg" title="IMG_0121">
+            <img src="http://localhost:4000/gallery/album2/IMG_0121.jpg" alt="IMG_0121" title="IMG_0121" />
+            <!--<span>IMG_0121</span>-->
+          </a>
+        </li>
+      
+    
+  
+</ul>
+
+:ET

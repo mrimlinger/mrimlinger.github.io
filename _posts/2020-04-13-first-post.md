@@ -5,7 +5,7 @@ date: 2020-04-13
 ---
 
 
-
+Bonjour à tous et à toutes.
 
 ## Sous-partie 2.1
 

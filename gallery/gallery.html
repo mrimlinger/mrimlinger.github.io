@@ -1,0 +1,16 @@
+---
+layout: default
+title: Matthieu Rimlinger
+---
+
+<h2>Gallery</h2>
+
+<ul class="album_list">
+  {% for post in site.posts %}
+    {% if post.tags contains "album" %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endif %}
+	{% endfor %}
+</ul>

@@ -1,3 +1,4 @@
+/* body of the site -------------------------------------------------------------------------- */
 body {
   width: 40%;
   margin: auto;
@@ -17,11 +18,10 @@ body {
   }
 }
 
+/* header and navigation -------------------------------------------------------------------- */
 header {
   margin-top: 4%;
 }
-
-/* navigation ------------------------------------------------------------------------------- */
 nav {
   margin-left: 0.5%;
   font-family: 'Cutive Mono', monospace;
@@ -45,9 +45,7 @@ nav > a:active {
   text-decoration: none;
   font-weight: 600;
 }
-
-
-/* container for page content --------------------------------------------------------------- */
+/* container for page content (between nav and footer) -------------------------------------- */
 .container {
   margin-top: 5%;
   margin-bottom: 5%;
@@ -62,7 +60,6 @@ h1 {
 h2 {
   font-size: 12pt;
   font-weight: 700;
-  margin: 0%;
   color: black;
 }
 h3 {
@@ -70,17 +67,21 @@ h3 {
   font-weight: 700;
   color: black;
 }
+/* about section */
+.about {
+  text-align: justify;
+}
 
 
 /* */
 .post_list {
   list-style-type: none;
   margin-left: 0.75%;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 0%;
+  margin-bottom: 0%;
   padding: 0;
 }
-.post_list .post_date {
+.post_date {
   font-family: 'Cutive Mono', monospace;
   color: #ababab;
   font-size: 10pt;
@@ -108,8 +109,8 @@ h3 {
 .album_list {                   /* might just put all those as post list*/
   list-style-type: none;
   margin-left: 0.75%;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 0%;
+  margin-bottom: 0%;
   padding: 0;
 }
 .album_list a:link {
@@ -132,6 +133,9 @@ h3 {
 }
 
 /* display of posts ------------------------------------------------------------------------ */
+.post_meta .post_title {
+  margin-bottom: 0;
+}
 .post_meta .post_date {
   font-family: 'Cutive Mono', monospace;
   color: #ababab;
@@ -139,13 +143,10 @@ h3 {
   margin-top: 0.5%;
   margin-left: 0%;
 }
-.post_meta .post_title {
-  margin-bottom: 0;
-}
 .post_content {
   text-align: justify;
 }
-/* titles inside a blog post (translated from .md) ----------------------------------------- */
+/* titles inside a blog post (translated from .md) */
 .post_content h1 {
   font-size: 12pt;
   font-weight: 700;
@@ -161,12 +162,15 @@ h3 {
   font-weight: 700;
   color: black;
 }
-/*.post_content h3::before{
-  content: "- ";
-}*/
+.post_content h4 {
+  font-size: 10pt;
+  font-weight: 700;
+  color: black;
+}
 .post_content ul {
   list-style-type: disc;
 }
+
 
 /* footer ---------------------------------------------------------------------------------- */ 
 footer {

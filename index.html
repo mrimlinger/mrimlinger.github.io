@@ -5,13 +5,11 @@ nbr_posts: 5
 ---
 
 <h2>Welcome</h2>
-
-<div>
-	<p>I'm Matthieu, a french guy studying Electrical Engineering at ETH Zurich. This is my internet abode where I share some ideas and adventures. May it provide you with the information that you are looking for. </p>
+<div class="about">
+	<p>I'm Matthieu, a french guy studying Electrical Engineering at ETH Zurich. This is my internet abode, where I share ideas and experiences. I hope that you'll find what you are looking for. Contact: rimmatt98@ &#60 the email service offered by Google &#62. </p>
 </div>
 
 <h2>Latest posts</h2>
-
 <ul class="post_list">
   {% assign count = 0 %}
   {% for post in site.posts %}
@@ -25,3 +23,14 @@ nbr_posts: 5
   {% endfor %}
 </ul>
 
+<h2>Gallery</h2>
+<ul class="album_list">
+  {% for post in site.posts %}
+    {% if post.tags contains "album" %}
+      <li>
+        <span class="post_date">{{ post.date | date_to_string }} >> </span>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endif %}
+	{% endfor %}
+</ul>

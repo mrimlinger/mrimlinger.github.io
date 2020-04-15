@@ -87,12 +87,15 @@
   function Disp(path, nbr) {
     console.log("initial nbr assignment: ", nbr);
     album.curr_pic = nbr;
-    var frame = document.getElementById("html");//"content"); /////////////////////////////////
+    var body = document.getElementById("body");
+    /* hide main site */
+    document.getElementById("wrapper").style.display = "none";
+    //document.getElementById("wrapper").style.backgroundColor = "black"; /////////////////////
     /* dark background */
     var background = document.createElement("div");
     background.id = "background";
     background.className = "dark_background";
-    frame.appendChild(background);
+    body.appendChild(background);
     /* picture */
     var pic = document.createElement("img");
     pic.src = path;
@@ -153,13 +156,15 @@
   }
   function Escape() {
     album.curr_pic = -1;
-    var frame = document.getElementById("content");
+    var body = document.getElementById("body");
     var background = document.getElementById("background");
-    frame.removeChild(background);
+    body.removeChild(background);
     /* remove eventlistener on keyboard and touchscreen */
     document.removeEventListener("keyup", KeyHandle);
     document.removeEventListener("touchstart", TouchHandleStart);
     document.removeEventListener("touchend", TouchHandleEnd);
+    /* re display main content*/
+    document.getElementById("wrapper").style.display = "block";
   }
   function TouchHandleStart(e) {
     var touchobj = e.changedTouches[0];

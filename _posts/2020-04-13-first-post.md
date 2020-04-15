@@ -18,7 +18,3 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - bullet1
 - bullet2
 
-Test for gallery:
-
-{% include image-gallery2.html folder="/gallery/album2/" %}
-

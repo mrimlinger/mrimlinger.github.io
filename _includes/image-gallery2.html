@@ -32,7 +32,24 @@
     max-height: 40vw;
     opacity: 100%;
   }
+  .close_button {
+    position: absolute;
+    top: 2%; right: 2%;
+    font-family: 'Open Sans', sans-serif;
+    color: #ababab;
+    font-size: 14pt;
+    font-weight: 600;
+    border: none;
+    outline:none;
+    background-color: rgba(0,0,0,0);
+    text-decoration: none;
+    cursor: pointer;
+  }
   @media screen and (max-width: 600px) {
+    .dark_background {
+      position: fixed; background-color: rgba(0, 0, 0, 1);
+      top: -50%; bottom: -50%; left: -50%; right: -50%; /* extra coverage */
+    }
     .full_img {
       position: relative;
       top: 50%; left: 50%;
@@ -41,14 +58,21 @@
       max-height: 99vw;
       opacity: 100%;
     }
-  }
-  .close_button {
-    position: absolute;
-    top: 2%; right: 2%;
-    font-family: 'Open Sans', sans-serif;
-    color: #ababab;
-    font-size: 14pt;
-    font-weight: 600;
+    .close_button {
+      position: absolute;
+      top: 26%; right: 26%;
+      width: 12vw; height: 12vw;
+      text-align: center; 
+      font-family: 'Open Sans', sans-serif;
+      color: #ababab;
+      font-size: 14pt;
+      font-weight: 600;
+      border: none;
+      outline:none;
+      background-color: rgba(0, 0, 0, 0);
+      text-decoration: none;
+      cursor: pointer;
+    }
   }
 </style>
 
@@ -76,7 +100,7 @@
     pic.className = "full_img";
     background.appendChild(pic);
     /* close button */
-    var close = document.createElement("a");
+    var close = document.createElement("button");
     var close_txtNode = document.createTextNode("x");
     close.appendChild(close_txtNode);
     close.setAttribute( "onclick", "javascript: Escape();" );

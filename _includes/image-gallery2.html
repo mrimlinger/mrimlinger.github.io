@@ -88,9 +88,9 @@
     console.log("initial nbr assignment: ", nbr);
     album.curr_pic = nbr;
     var body = document.getElementById("body");
-    /* hide main site */
+    /* hide main site and set it to black */
     document.getElementById("wrapper").style.display = "none";
-    //document.getElementById("wrapper").style.backgroundColor = "black"; /////////////////////
+    body.style.backgroundColor = "black";
     /* dark background */
     var background = document.createElement("div");
     background.id = "background";
@@ -165,6 +165,7 @@
     document.removeEventListener("touchend", TouchHandleEnd);
     /* re display main content*/
     document.getElementById("wrapper").style.display = "block";
+    body.style.backgroundColor = "white";
   }
   function TouchHandleStart(e) {
     var touchobj = e.changedTouches[0];

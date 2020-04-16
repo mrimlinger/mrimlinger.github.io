@@ -201,7 +201,7 @@
             file.extname == '.jpeg' or 
             file.extname == '.JPG' or 
             file.extname == '.JPEG' %}
-        <script> album.pics.push("{{site.url}}{{ file.path | relative_url }}");</script>
+        <script> album.pics.push("{{ file.path }}");</script>
         <li>
           {% assign call = "Disp('" | append: file.path | append: "'," | append: cnt | append: ")" %}
           <a onclick="{{ call }}">

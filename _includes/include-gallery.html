@@ -205,10 +205,9 @@
         <li>
           {% assign call = "Disp('" | append: file.path | append: "'," | append: cnt | append: ")" %}
           {{site.url}}
-          {{file.path | relative_url }}
           {{file.path}}
           <a onclick="{{ call }}">
-            <img src="{{site.url}}{{ file.path}}" alt="{{ filename }}" title="{{ filename }}" />
+            <img src="{{file.path}}" alt="{{ filename }}" title="{{ filename }}" />
             <!--<span>{{ filename }}</span>-->
           </a>
         </li>

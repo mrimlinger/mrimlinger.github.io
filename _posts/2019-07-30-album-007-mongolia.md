@@ -1,8 +1,9 @@
 ---
 layout: post
-title: 007 - Mongolia
+title: Mongolia
 date: 2019-07-30
-tags: album
+tag: album
+nbr: "007"
 ---
 
 {% include include-gallery.html folder="/007-mongolia/" %}

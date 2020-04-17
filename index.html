@@ -28,7 +28,8 @@ nbr_posts: 5
   {% for post in site.posts %}
     {% if post.tags contains "album" %}
       <li>
-        <span class="post_date">{{ post.date | date_to_string }} >> </span>
+        {% assign date_arr = post.date | date_to_string | split: " " %}
+        <span class="post_date">{{ date_arr[1] }} {{ date_arr[2] }} >> {{post.nbr}} - </span>
         <a href="{{ post.url }}">{{ post.title }}</a>
       </li>
     {% endif %}

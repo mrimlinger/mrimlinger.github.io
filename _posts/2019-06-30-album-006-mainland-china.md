@@ -1,8 +1,9 @@
 ---
 layout: post
-title: 006 - Mainland China
+title: Mainland China
 date: 2019-06-30
-tags: album
+tag: album
+nbr: "006"
 ---
 
 {% include include-gallery.html folder="/006-mainland-china/" %}

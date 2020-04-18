@@ -77,6 +77,10 @@
 </style>
 
 <script>
+  function AlbumList() {
+    this.list = new Array();
+    this.curr_album = -1;
+  }
   function Album() {
     this.pics = new Array();
     this.curr_pic = -1;
@@ -84,12 +88,13 @@
   /* global variables to handle swipe event*/
   var startX, startY, dist, threshold = 50, allowedTime = 1000, elapsedTime, startTime;
   /* --- */
-  function Disp(path, nbr) {
-    console.log("initial nbr assignment: ", nbr);
-    album.curr_pic = nbr;
+  function Disp(path, nbr_a, nbr_p) {
+    console.log("Disp");
+    album_list.curr_album = nbr_a;
+    album_list.list[nbr_a].curr_pic = nbr_p;
     var body = document.getElementById("body");
     /* hide main site and set it to black */
-    document.getElementById("wrapper").style.display = "none";
+    document.getElementById("wrapper").style.display = "none"; // make it unecessary to have a wrapper for "dumb use" ?
     body.style.backgroundColor = "black";
     /* dark background */
     var background = document.createElement("div");
@@ -129,12 +134,12 @@
       }
     }
   function Next() {
-    var len = album.pics.length;
-    var nbr = album.curr_pic;
+    var len = album_list.list[album_list.curr_album].pics.length;
+    var nbr = album_list.list[album_list.curr_album].curr_pic;
     if (nbr<len-1) {
-      nbr += 1; album.curr_pic += 1;
+      nbr += 1; album_list.list[album_list.curr_album].curr_pic += 1;
       var pic = document.getElementById("pic");
-      pic.src = album.pics[nbr];
+      pic.src = album_list.list[album_list.curr_album].pics[nbr];
     }
     else {
       console.log("escape caled");
@@ -142,12 +147,12 @@
     }
   }
   function Prev() {
-    var len = album.pics.length;
-    var nbr = album.curr_pic;
+    var len = album_list.list[album_list.curr_album].pics.length;
+    var nbr = album_list.list[album_list.curr_album].curr_pic;
     if (nbr>0) {
-      nbr += -1; album.curr_pic += -1;
+      nbr += -1; album_list.list[album_list.curr_album].curr_pic += -1;
       var pic = document.getElementById("pic");
-      pic.src = album.pics[nbr];
+      pic.src = album_list.list[album_list.curr_album].pics[nbr];
     }
     else {
       console.log("escape caled");
@@ -155,7 +160,8 @@
     }
   }
   function Escape() {
-    album.curr_pic = -1;
+    album_list.list[album_list.curr_album].curr_pic = -1;
+    album_list.curr_album = -1;
     var body = document.getElementById("body");
     var background = document.getElementById("background");
     body.removeChild(background);
@@ -193,27 +199,34 @@
 
 
 <ul class="image-gallery">
-  <script> var album = new Album(); </script>
-  {% assign cnt = 0 %}
-  {% for file in site.static_files %}
+  <!-- check if it is the first album on the page -->
+  {% if cnt_a %} <!-- check if variable is defined or not -->
+    {% assign cnt_a = cnt_a | plus: 1 %}
+  {% else %}
+    {% assign cnt_a = 0 %}
+    <script> var album_list = new AlbumList(); </script>
+  {% endif %}
+  <script>
+    var album = new Album();
+    album_list.list.push(album);
+  </script>
+  <!-- -->
+  {% assign cnt_p = 0 %}
+  {% for file in site.static_files %} <!-- inefficient way of searching ? -->
     {% if file.path contains include.folder %}
       {% if file.extname == '.jpg' or 
             file.extname == '.jpeg' or 
             file.extname == '.JPG' or 
             file.extname == '.JPEG' %}
         <script> album.pics.push("{{ file.path }}");</script>
-        <li>
-          {% assign call = "Disp('" | append: file.path | append: "'," | append: cnt | append: ")" %}
+        <li> <!-- include parameter in function call -->
+          {% assign call = "Disp('" | append: file.path | append: "'," | append: cnt_a | append: "," | append: cnt_p | append: ")" %}
           <a onclick="{{ call }}">
             <img src="{{file.path}}" alt="{{ filename }}" title="{{ filename }}" />
           </a>
         </li>
-        {% assign cnt = cnt | plus: 1 %}
+        {% assign cnt_p = cnt_p | plus: 1 %}
       {% endif %}
     {% endif %}
   {% endfor %}
 </ul>
-
-<script>
-
-</script>

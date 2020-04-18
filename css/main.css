@@ -171,6 +171,12 @@ h3 {
   list-style-type: disc;
 }
 
+/* other languages */
+
+.chinese {
+  font-family: 'Noto Sans SC', sans-serif;
+  font-weight: 400;
+}
 
 /* footer ---------------------------------------------------------------------------------- */ 
 footer {

@@ -6,4 +6,10 @@ tag: album
 nbr: "006"
 ---
 
-{% include include-gallery.html folder="/006-mainland-china/" %}
+<h2>Shenzhen <a class="chinese">深圳</a></h2>
+
+{% include include-gallery.html folder="/006-mainland-china/shenzhen" %}
+
+<h2>Shanghai <a class="chinese">上海</a></h2>
+
+{% include include-gallery.html folder="/006-mainland-china/shanghai" %}

@@ -6,4 +6,14 @@ tag: album
 nbr: "007"
 ---
 
-{% include include-gallery.html folder="/007-mongolia/" %}
+<h2>Transmongolian</h2>
+
+{% include include-gallery.html folder="/007-mongolia/transmogolian" %}
+
+<h2>Ulaanbaatar Улаанбаатар</h2>
+
+{% include include-gallery.html folder="/007-mongolia/ulaanbaatar" %}
+
+<h2>Wwoofing</h2>
+
+{% include include-gallery.html folder="/007-mongolia/wwoofing" %}

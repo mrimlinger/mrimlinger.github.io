@@ -8,12 +8,12 @@ nbr: "007"
 
 <h2>Transmongolian</h2>
 
-{% include include-gallery.html folder="/007-mongolia/transmogolian" %}
+{% include include-gallery.html folder="/007-mongolia/transmongolian/" %}
 
 <h2>Ulaanbaatar Улаанбаатар</h2>
 
-{% include include-gallery.html folder="/007-mongolia/ulaanbaatar" %}
+{% include include-gallery.html folder="/007-mongolia/ulaanbaatar/" %}
 
 <h2>Wwoofing</h2>
 
-{% include include-gallery.html folder="/007-mongolia/wwoofing" %}
+{% include include-gallery.html folder="/007-mongolia/wwoofing/" %}

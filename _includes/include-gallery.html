@@ -160,8 +160,8 @@
     }
   }
   function Escape() {
-    album_list.list[album_list.curr_album].curr_pic = -1;
-    album_list.curr_album = -1;
+    // must go back to correct position on page
+    
     var body = document.getElementById("body");
     var background = document.getElementById("background");
     body.removeChild(background);
@@ -169,9 +169,17 @@
     document.removeEventListener("keyup", KeyHandle);
     document.removeEventListener("touchstart", TouchHandleStart);
     document.removeEventListener("touchend", TouchHandleEnd);
-    /* re display main content*/
+    /* re display main content */
     document.getElementById("wrapper").style.display = "block";
     body.style.backgroundColor = "white";
+    console.log("i'm out");
+    console.log(album_list.list[album_list.curr_album].curr_pic);
+    console.log(album_list.curr_album);
+    window.location.href = "#"+(album_list.curr_album).toString()+"-"+(album_list.list[album_list.curr_album].curr_pic).toString();
+    history.replaceState(null, null, ' '); // remove # from url
+    /* reset global variables */
+    album_list.list[album_list.curr_album].curr_pic = -1;
+    album_list.curr_album = -1;
   }
   function TouchHandleStart(e) {
     var touchobj = e.changedTouches[0];
@@ -221,8 +229,9 @@
         <script> album.pics.push("{{ file.path }}");</script>
         <li> <!-- include parameter in function call -->
           {% assign call = "Disp('" | append: file.path | append: "'," | append: cnt_a | append: "," | append: cnt_p | append: ")" %}
+          {% assign pic_id = cnt_a | append: "-" | append: cnt_p %}
           <a onclick="{{ call }}">
-            <img src="{{file.path}}" alt="{{ filename }}" title="{{ filename }}" />
+            <img id="{{pic_id}}" src="{{file.path}}" alt="{{ filename }}" title="{{ filename }}" />
           </a>
         </li>
         {% assign cnt_p = cnt_p | plus: 1 %}

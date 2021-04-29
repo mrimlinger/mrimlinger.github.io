@@ -12,9 +12,6 @@ Total length: 48km <br />
 Cumulated elevation: 923m <br />
 Time: 6h30min <br />
 
-
-fffffffffffffffffffffffffffff ffffffffffffffffffffff ffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff fffffffff.
-
 <div class="map-responsive">
 <iframe src="https://www.google.com/maps/d/embed?mid=1PnUUjPr-AfY5bNqy5iI3z-7_RNkbR4FY" width="640" height="480"></iframe>
 </div>

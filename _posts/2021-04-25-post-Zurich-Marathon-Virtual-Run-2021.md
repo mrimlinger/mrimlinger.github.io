@@ -9,7 +9,7 @@ A stupid idea for some, a crazy one for others.<br />
 Thank you Thea for running the second half with me :)
 
 Total length: 48km <br />
-Cumulated elevation: 923m <br />
+Cumulated elevation: 831m <br />
 Time: 6h30min <br />
 
 <div class="map-responsive">

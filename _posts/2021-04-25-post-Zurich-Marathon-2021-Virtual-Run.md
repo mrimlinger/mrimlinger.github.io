@@ -15,8 +15,12 @@ Time: 6h30min <br />
 <div class="map-responsive">
 <iframe src="https://www.google.com/maps/d/embed?mid=1PnUUjPr-AfY5bNqy5iI3z-7_RNkbR4FY" width="640" height="480"></iframe>
 </div>
+<br />
 <div class="img-responsive">
 <img src="{{site.baseurl}}/assets/profile2.svg" alt="elevation profile" />
+</div>
+<div class="img-responsive">
+<img src="{{site.baseurl}}/assets/profile4.svg" alt="elevation profile" />
 </div>
 <style>
 .map-responsive{
@@ -36,13 +40,11 @@ Time: 6h30min <br />
   max-width: 100%;
   height: auto;
   text-align:center;
-  border: 10px solid red;
-  display:block;
   overflow:hidden;
 }
 img {
     max-width: 100%;
-    max-height: 100%;
+    height: auto;
 }
 </style>
 

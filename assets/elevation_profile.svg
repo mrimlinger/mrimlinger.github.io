@@ -29,7 +29,7 @@
 		<line fill="none" id="profile:gridline_x_4_label" stroke="#cccccc" stroke-width="1" x1="742.999999400241" x2="742.999999400241" y1="20" y2="220" />
 		<text fill="#000000" font-family="Verdana" font-size="12" id="x label 4" text-anchor="end" transform="rotate(-90,748.999999400241,224)" x="748.999999400241" y="224">40 km</text>
 		<line fill="none" id="profile:gridline_x_5_label" stroke="#cccccc" stroke-width="1" x1="880.5" x2="880.5" y1="20" y2="220" />
-		<text class="draggable" fill="#000000" font-family="Verdana" font-size="12" id="x label 5" text-anchor="end" transform="rotate(-90,886.5,224)" x="886.5" y="224">48.302 km</text>
+		<text class="draggable" fill="#000000" font-family="Verdana" font-size="12" id="x label 5" text-anchor="end" transform="rotate(-90,886.5,224)" x="886.5" y="224">48.3 km</text>
 	</g>
 	<g clip-path="url(#profile:drawing_boundary)" id="profile:track_area">
 		<g id="trk1:Teil1" opacity="1">

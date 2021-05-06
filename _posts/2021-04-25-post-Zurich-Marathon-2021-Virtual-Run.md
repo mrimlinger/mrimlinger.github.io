@@ -12,22 +12,25 @@ Total length: 48km <br />
 Cumulated elevation: 831m <br />
 Time: 6h30min <br />
 
+# Path
+
 <div class="map-responsive">
 <iframe src="https://www.google.com/maps/d/embed?mid=1PnUUjPr-AfY5bNqy5iI3z-7_RNkbR4FY" width="640" height="480"></iframe>
 </div>
-<br />
+
+# Elevation profile
+
 <div class="img-responsive">
-<img src="{{site.baseurl}}/assets/profile2.svg" alt="elevation profile" />
+<img src="{{site.baseurl}}/assets/elevation_profile.svg" alt="elevation profile" />
 </div>
-<div class="img-responsive">
-<img src="{{site.baseurl}}/assets/profile4.svg" alt="elevation profile" />
-</div>
+
 <style>
 .map-responsive{
   overflow:hidden;
   padding-bottom:70%;
   position:relative;
   height:0;
+  margin-bottom: 1.5em;
 }
 .map-responsive iframe{
   left:0;
@@ -45,6 +48,7 @@ Time: 6h30min <br />
 img {
     max-width: 100%;
     height: auto;
+    margin-right: 0%;
 }
 </style>
 

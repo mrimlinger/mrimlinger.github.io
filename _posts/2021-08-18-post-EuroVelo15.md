@@ -8,6 +8,6 @@ date: 2021-08-18
 
 <img src="../../../../assets/EuroVelo15/DSC_0908.jpg" alt="" />
 
-..
+Howdy ho
 
 <img src="../../../../assets/EuroVelo15/DSC_0910.jpg" alt="" />

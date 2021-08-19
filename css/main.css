@@ -9,7 +9,7 @@ body {
 }
 @media screen and (max-width: 600px) { 
   body {
-    width: 98%;
+    width: 97%;
     margin: auto;
     background-color: #ffffff;
     font-size: 11pt;
@@ -21,7 +21,7 @@ body {
 /* images ------- */
 
 img {
-  max-width: 100%;
+  max-width: 80%;
   max-height: 75vh;
 }  
 @media screen and (max-width: 600px) { 

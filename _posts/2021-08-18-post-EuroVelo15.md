@@ -81,6 +81,21 @@ I first bath into the Rhine. I slip when entering the water and hurt my feet a b
 
 ## Day 6
 
+6h45 Waking up, packing quickly, eating a bit
+7h45 Go. Ugly landscape scarred by open excavation. Lots of industry, not beautiful. Weather is grey, cloudy and fresh. 10h15 Nuclear power plant. 10h45 Break, I'm running out of energy, I have to eat. Lots of hydraulic power plants on the Rhine.
+11h45 Go again, lots of driving on the road, a bit uncomfortable when there are lots of truck. Not sot much interesting. Weatger is warming up though, the Sun piercing the clouds.
+13h Into the forest close to the river, on an unending unpaved road. Boooooooring, feels obliterating under the Sun.
+14h Quick lunch break (sandwich) just before Rheinfallen.
+14h30 Back on the road, towards Basel city centre through the extended urban area on the southern side of the river. Nothing interesting really.
+16h Meeting my father at the junction between the Birs and the Rhine. He came there by bike to ride a bit with me. I'm so happy to see him! We bath in the fresh river, the Sun makes it perfect.
+17h30 We go through Basel on the Southern side of the Rhine and cross the CH-FR border. Then we continue towards home along the Huningue canal and later the Hardt forest.
+19h We arrive home! In total I drove 120km today, way more than my usual ~80km. A well deserved hot shower. 
+19h30 Dinner at restaurant St-Laurent with my mother, step-father and brother. So nice to taste some fine food after eating only sandwiches for a few days.
+
+## Day 7
+
+Rest at home in Elsass :)
+
 
 
 

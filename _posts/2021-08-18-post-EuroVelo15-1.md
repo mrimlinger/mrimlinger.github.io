@@ -1,6 +1,6 @@
 ---
 layout: post
-title: EuroVelo 15 - Tale of the summer 1/3
+title: EuroVelo 15 - 1/3
 date: 2021-08-18
 ---
 
@@ -8,9 +8,9 @@ date: 2021-08-18
 
 Thank you Joe and Nathalie for the camping material and useful tips on surviving in the wild.
 Thank you Judy for lending me the pannier bags.
-Thabk you Irfan for teaching my clumsy self how to use tools.
+Thank you Irfan for teaching my clumsy self how to use tools.
 Thank you Martina for packing my first day sandwiches.
-Thank you Thea for provuding me with curative food on the days before departure.
+Thank you Thea for providing me with curative food on the days before departure.
 Thank you Dad for pharmaceutical, logistic, internet and technical support.
 
 ## Day 1

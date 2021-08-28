@@ -1,6 +1,6 @@
 ---
 layout: post
-title: EuroVelo 15 - Tale of the summer 1/3
+title: EuroVelo 15 - 2/3
 date: 2021-08-27
 ---
 

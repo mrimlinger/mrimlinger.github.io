@@ -4,6 +4,22 @@ title: EuroVelo 15 - 2/3
 date: 2021-08-27
 ---
 
+## Day 8
+
+9h00 Planned departure
+11h30 Actual departure. Will do better next time. Riding South from my village in direction Basel to cross the border with Germany. I decided to go on the German side of the Rhine since I already know the French side quite well. Furthermore I expect German drivers to be more respectful of bikes on thd road
+12h30 Passing the Kembs hydraulic powerplant where my father works. Sandwich break.
+13h Crossing FR-DE border at the Kembs dam. Now going back towards the North on the German side. Smooth unpaved road on the side of the natural Rhine (next to it on the French side is the artificial Rhine used for navigation and energy generation).
+Nice sightseeing infrastructures.
+15h Now going through fields and villages, plus some industrial zones. It feels a bit... sad. Maybe I'm just tired and not in a good mood. Strong face wind, it is really unpleasant. Dreadful. J'en ai plein le $#@.
+16h45 Back on the Rhine shore. Nap time, I'm tired.
+17h30 Waking up. Eating a sandwich.
+18h Going again. The wind has fallen, speed goes from 16km/h to 26km/h ahah. Nice smooth unpaved road on shore. I have stomach but they go away at some point. I meet some young germans going the other way, trying to reach Marseille from Berlin. 
+19h15 Reaching Breisach, quickly visiting the city centre.
+20h Eating a nice traditional German kebap. I was looking forward to that. Twice better as in Zurich, and twice as cheap. Getting my phone charged.
+21h Leaving the Kebap. Searching for a place to mount the tent. A bit difficult in the dark. The night is also quite cold, I'm breathing out steam. Setting up the tent. I can hear music and people partying in the distance.
+22h30 Writting. 23h Sleep
+
 ## Day 9
 
 8h00 Waking up, packing. Greeting some early walkers.

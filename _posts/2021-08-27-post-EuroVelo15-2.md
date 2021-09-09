@@ -238,6 +238,7 @@ Huge warehouses from which come muffled machinery sounds, and whose tall opaque 
 22h30 Done with the camp. Eating dinner, somewhat healthier than McDonalds which feels good. Weather is mild and there are no moskitoes. Some strangers passing by, feeling moderately safe.
 00h00 Sleep.
 
+
 ## Day 20
 
 8h30 Waking up. Breakfast, cleaning my feet wound. Packing. I'm very efficient, I like that.
@@ -265,13 +266,14 @@ Flat fields, lots of them.
 16h30 Rees. Lovely little brick town with a nice Rhine promenade. Bretzel snack break. Still very motivated.
 17h Leaving Rees. Driving on country side roads amidst fields. Some wind turbines around.
 17h45 Dike dike dike, you know how it goes.
-
-20h45 Leaving the kebab. I check the Rhine promenade. Taking a picture (that involves some climbing).
+18h30 Arriving at Emmerich.
+18h45 Buying food at Lidl (in particular some 85% chocolate to get me going).
+19h15 Eating at the best rated kebab intown. Very very nice. Last German kebab and beer before leaving this land. Able to recharge my phone, that's good.
+20h45 Leaving the kebab. I check the Rhine promenade. Taking a picture that involves some climbing.
 21h30 Leaving Emmerich for good.
 Riding at night next to the dike. Spooky and maybe slightly dangerous because of the bumps, but I love the thrill of it.
 22h I am finally at the border ! Plus I reached 100km cycled today. I'm tired though and struggle to find place to sleep. Also the night is getting cold.
 22h30 I find a place in a field. Hope I won't disturb / be disturbed.
-23h Tent set.
+23h Tent set. A good and productive day. Plus I didn't go to McDonalds today, I'm proud.
 23h45 Sleep.
-
 

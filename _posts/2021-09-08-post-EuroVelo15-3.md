@@ -152,7 +152,26 @@ In the dorm I meet Baran, a young turkish guy studying law in London. We go eati
 23h Back at the hostel. Briefly sympathising with another guy of the dorm who is from China and will start studying design here. Complaining altogether about the noise outside of the dorm. Shower. Preparing for tomorrow's early departure.
 01h Sleep.
 
+## Day 27
 
+5h45 Waking up. Couldn't sleep well because of a moskito harassing my ears and sucking my blood throughout the whole night. Discretely leaving the dorm with my bags.
+6h00 Checking-out of the hostel. Riding through the empty city to the Centraal Station in the early morning's darkness.
+6h15 Centraal Station. Waiting. Dawn. Morning fog.
+7h14 - 8h15 Rotterdam -> Eindhoven.
+Carrying the bike on and off the train is quite tedious. Many times it swipes over and I end up bruising myself in the legs with the pedals.
+8h19 - 8h58 Eindhoven -> Venlo.
+The change between trains is quite tight since I have to travel two platforms and take two elevators. It is raining heavily. I drive on the platform (like a thug) under the rain to catch the train.
+09h05 - 10h12 Venlo -> Düsseldorf.
+10h27 - 17h00 Düsseldorf -> Zürich.
+Very unfriendly old lady makes me notice that I am in the wrong carriage (almost as telling me to go away). It rains. Passing by some places where I cycled on the romantic Rhine. I even recognize places where I slept. It feels so strange: seen from the train these paths and places feel part of another world. Also it is funny to think that in ten hours by train I am travelling back what took me three weeks by bike. Morale: bike is a great way to travel, and the train is a wonderful invention.
+14h15 - 15h45 Sleeping. Long train ride. Wearing the mask is getting annoying and painful for my ears. 
+17h15 Arrival in Zurich HB. On the platform I get controlled for my bike by a controller who seemed eager to give me a fine. Not friendly at all despite my very best attitude. Going home by cycling through Zurich. The weather is grey and rainy. Just as I left it :p
+17h45 Home, sweet home. Very happy to meet again the people I care about.
+
+
+***
+End of the travel journal.
+***
 
 
 

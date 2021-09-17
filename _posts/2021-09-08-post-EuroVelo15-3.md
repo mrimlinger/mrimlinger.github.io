@@ -49,21 +49,6 @@ Hot broth soup is nice.
 14h30 It rains. Big drops. I find shelter and wait until it passes.
 15h Going again, the rain has stopped.
 15h45 Passing near Leerdam. Moving forward. Trying to be fast. My left knee hurts a bit though.
-
-## Day 22
-
-7h45 Waking up. Breakfast. Packing. I book a hostel for the upcoming night in Rotterdam - I really want to take a shower. This means I have a long day ahead of me to get there. I'm greeted by the old armer who is passing by the field. We attempt to communicate in Dutch / German.
-9h15 Going. Fresh cloudy morning.
-10h15 Wijk. Poor signaling of EV15 in the city, I loose it for a bit, wasting some time.
-10h45 Taking a platform ferry boat on a canal. I like the smell of steel and gasoline, and the rumbling sound of its engine. It must have taken the Dutch a crazy amount of effort to arrange and control all the waterways in the country. The canals make like a watery road network. Then passing through some very nice country side. Sheeps. Windmills.
-11h45 Buren. Very charming little village. I stop at a butcher shop, drawn by some pulled pork burger on display. Omg is it good. Eating break.
-12h15 Going again. 
-12h45 Buying (more) food at lidl.
-13h30 Going. I am very sceptical as to the route planning of EV15 in this area. It makes significant detours through places where there is really nothing special to see. I would have the same overall experience by following some random, more straightforward cycling lanes towards my destination. Quite retarded imo. Anyway I still want to trust EV15. Face wind while going West. Shite. It feels like the world is a gainst me despite doing my best. A few windmills.
-14h15 Beautiful tiny hamlets on the shore of a small river. Some white houses with straw roofs. Rain / storm seems to be coming.
-14h30 It rains. Big drops. I find shelter and wait until it passes.
-15h Going again, the rain has stopped.
-15h45 Passing near Leerdam. Moving forward. Trying to be fast. My left knee hurts a bit though.
 17h Gorinchem. Stopping at McDonalds. I need sugar, to use their toilets and to charge my phone.
 17h30 Going. I feel re-energized and my knee hurts less.
 18h15 I make the (uttermostly important) decision to follow EV15 on its path madness, instead of going straight to Rotterdam. This implies taking a {first boat} accross the Bowen Merwede, wandering a bit of {countryside}, going through a {national park}, and then taking {another boat} to Dordrecht since the aforementionned countryside and park are waterlocked in direction of Rotterdam. Then I shall be again on a direct path to Rotterdam. My idea is that it should be nice and worth seeing, and I want to trust EV15 (spoiler: in retrospect this was a mistake). Before jumping on the first boat, I make sure that the second boat will still be running when I get there, in order not to remain stuck on the waterlocked piece of land. All is good, boat cruising is fun.

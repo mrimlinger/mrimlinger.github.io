@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Metal machining internship at ETML
-date: 2018-23-07
+date: 2018-07-23
 ---
 
 At the end of the Bachelor’s fourth semester, Microengineering students from EPFL have to do a two weeks machining internship during their summer holidays. The internship took place at ETML (school of technical professions in Lausanne). Throughout these two weeks we learned how to use these three main machine-tools:

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hong Kong S1 (FR) - Marathon de Singapour
+title: Singapore Marathon 2018
 date: 2018-10-09
 tags: [Travel, Singapore, TPLM, Marathon]
 ---

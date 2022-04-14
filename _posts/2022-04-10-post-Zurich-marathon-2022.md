@@ -1,3 +1,9 @@
+---
+layout: post
+title: Zurich Marathon 2022
+date: 2022-04-10
+---
+
 A few chronological notes:
 - A morning run, start at 8:15am in the cold ~5°C.
 - About 4000 participants for the full distance i.e. not too many, simple atmosphere "come and run".

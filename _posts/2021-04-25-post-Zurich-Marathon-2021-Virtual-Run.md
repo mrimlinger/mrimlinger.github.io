@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Zurich Marathon 2021 Virtual Run - A path to salvation
+title: Zurich Marathon 2021 Virtual Run
 date: 2021-04-1
 ---
 
+# A path to salvation
 
 A stupid idea for some, a crazy one for others.<br />
 Thank you Thea for running the second half with me :)
@@ -12,7 +13,6 @@ Total length: 48km <br />
 Cumulated elevation: 831m <br />
 Time: 6h30min <br />
 
-# Path
 
 <div class="map-responsive">
 <iframe src="https://www.google.com/maps/d/embed?mid=1PnUUjPr-AfY5bNqy5iI3z-7_RNkbR4FY" width="640" height="480"></iframe>

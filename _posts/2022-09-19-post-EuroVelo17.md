@@ -360,16 +360,13 @@ Exhaustion, I'm dying here. PJ is far in front, he has to catch his train early.
 Good family time. Lot of resting and eating. Some cooking. Little excursion to Marseille. (...)
 
 ## Day 15:
-Long train journey back home, from 6h to 23h, many changes (I must take local trains since high speed ones have limited spots for bikes that are subject to reservation).
-Vitrolles -> Lyon.
-Lyon -> Geneva.
-Meeting quite a few german speaking people in the train compartments, who are also traveling with bikes. I manage to forget my helmet in the train. Sad.
-Geneva -> Zofingen.
-Emergency braking of the train. One of the spokes of the front tire of my bike gets slightly bent because I had wrongly put my bike in the holding system. I'm pissed.
-Zofingen -> Basel.
-Meeting a friend in Basel, good time. Hot chocolate, interesting discussion.
-Basel -> Zurich.
-Riding from the main station to my home. It is cold and rainy. Vacations are over.
+Long train journey back home, many changes (I must take local trains since high speed ones have limited spots for bikes that are subject to reservation).
+6h Wake up, farewell to my aunt. Riding in the dark windy morning to the station.
+7h Vitrolles -> Lyon.
+Lyon -> Geneva. Meeting quite a few german speaking people in the train compartments, who are also traveling with bikes. I manage to forget my helmet in the train. Sad.
+Geneva -> Zofingen. Emergency braking of the train. One of the spokes of the front tire of my bike gets slightly bent because I had wrongly put my bike in the holding system. I'm pissed.
+Zofingen -> Basel. 18:45 Meeting a friend in Basel, good time. Hot chocolate, interesting discussion.
+Basel -> Zurich. 23h Riding from the main station to my home. It is cold and rainy. Vacations are over.
 
 [side-quest] No McDonalds throughout the entire trip ☑️.
 

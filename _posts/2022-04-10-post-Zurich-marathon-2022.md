@@ -9,7 +9,7 @@ A few chronological notes:
 - About 4000 participants for the full distance i.e. not too many, simple atmosphere "come and run".
 - First real marathon since a long time, thank you covid.
 - No specific target time in mind, I just want to finish it and challenge myself.
-- I manage to get passed the 4h00 pace flag, I will try to stay ahead of it.
+- I manage to go past the 4h00 pace flag, I will try to stay ahead of it.
 - Quite some people cheering in the city and villages, thank you dear strangers :)
 - Some brass bands playing in the villages along the lake, really cool!
 - Perfect weather ~10°C + Sun.

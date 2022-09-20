@@ -296,7 +296,8 @@ Our plan is to start driving from his home to Lyon, where we will rejoin the EV1
 9:45 We go. First we reach a promontory close to his home, where we get a nice view on the Beaujolais (wine producing region), the Alps and the Mt-Blanc. Really cool. Then downhill.
 We then ride along the Saône river on a chaotic old towpath. This is quite exhausting and painful for the hands and wrists. Good weather.
 At some point the path is blocked due to construction work but no deviation path is indicated, so we go nevertheless. The construction workers are nice, they let us pass while saying they were not responsible for the deviation but some supposedly clever people were in charge of that.
-As we approach Lyon, the surface to ride improves, some parts have been adapted with good cycling infrastructures.
+PJ uses a light stiff road bike and carries his material in a large backpack. Such setup, although it might not be optimal for very long trips, is working well for him so I am happy about that, it is good news for the continuation of the adventure. His setup is also faster than mine at equal rider due to lighter weight and improved aerodynamics (at the expense of comfort and adaptability to the terrain). And since PJ is also a better cyclist than I am, he is usually going faster than me. But this is perfectly fine, we just wait for each other at regular intervals.
+As we approach Lyon, the riding surface improves, some parts have been adapted with good cycling infrastructures.
 Once in Lyon we drive on the road (cycles lanes), the pavement is shit. Lot of traffic, some disrespectful drivers.
 We reach the center following a turn in the river, beautiful buildings lining up on the sides.
 In order to get a good overview of the city, we start riding up the Fourvière hill, atop which is an imposing basilica. The climb is legit hardcore, I manage to keep up riding but the effort is intense. At some point I stop and push the bike because I don't want to "burn myself" unnecessarily. The road ahead is still long.
@@ -320,43 +321,57 @@ Then we eat a kebab, the place is a bit shady but whatever, it feels good as we 
 23h Sleep. Today we rode 100km which, given the overall condition of the route in this section, is a nice achievement.
 
 ## Day 11:
-6h30 woken up by tractors engine noise
-7h out, wet, moskitoes, lettuce field being harvested by seasonal workers, make coffee, pack things, eat breakfast
-8h30 go
-8h45 9h break infrastructure stylee
-chouette piste, collines vignobles
-9h30 centrale
-9h40 separation of the rhone
-strong front wind
-boring but nice cycle lane no view
-10h snack break
-10h30 blue bridge
-11h15 Andancette, café de la gare, chocolat chaud, vieux bistro vieille frances, qques alcolos de bon matin, caca
-12h go
-12h15 pique niqie parc du village
-13h go
-13h30 bridge to other side
-wind 50-60 kmh peak
-14h30 break in a parc
-14h45 go
-15:15 Doux
-15:30 beer on a terrace (a nice Fisher amber), PJ checks for hist train, I decide to end my trip here due the bad weather that is incoming
-16:30 Taking a picture of both PJ and me using the timer. Go towards Valence.
-tjrs ce putain de vent de face
-ahhhhhhhh
-otherwise path was very good today
-slight change in architecture, roofs with big curved orange tiles typical of the South of France
-exhaustion, tel Katia
-17:45 hydro powerplant
-18:00 entering Valence, gettimg stuck in the park whose plan shows infrastructures (in particular a path to the city center) that have not been built yet
-rushing to the station, buying a ticket (man those machines are so inconvenient)
+6h30 We are awaken by the noise of a tractor's engine. 
+7h After laying a bit more in bed, we decide to get out. Everything is very wet from the dew, we are getting attacked by moskitoes. In the field next to us, some seasonal workers are harvesting salad crops.
+They do not pay attention to us. We amke ourselves some coffee and eat breakfast, then we pack our tents and material.
+8h30 Go. Objective for the day: the city of Valence, about 90km from here. It is nice to ride so early in the morning, there is a lot of mist everywhere from the evaporating dew. Nature and the surroundings are also very nice here: the Rhone flows between hills covered in vineyards. The route is a smooth paved path that follows the riverbank. It should remain as such throughout the whole day according to the map.
+8h45 Break at some sort of rest area made specially for cyclist of the ViaRhona. It has lockers, drinkable water, toilets, air pump, etc. Pretty cool.
+9h Go. Still the same kind of path as described before, this is great.
+9h30 Passing by the nuclear powerplant of St-Alban / St-Maurice-l'Exil.
+9h40 Separation of the Rhone in two around an island for the next ~5km. We are now facing a really strong front wind.
+The path is boring without much interesting view, but the path is good.
+10h Snack break with a view on some industries on the other side.
+10h30 Serrière and its blue bridge.
 
-23:30 sleep
 
-lyon still 160km away
-vignoble ignoble
+11h15 Village / little town of Andancette. We stop at the "café de la gare", an old bar and café located near the disused train station. We get ourselves some drinks, a nice hot chocolate on my side. Some local alcoholics are already present at this early hour, having a conversation with the barman.
+The place feels disturbingly "true" to the social class that frequent it. vieille France with its dated rudimentary almost poor decoration, vernished wood walls, tiled floor, dart game, table football.
+It is like an embodiment of this France of the countryside, rather poor and forgotten by all the metropolitan elites.
+Not the kind of place where hipsters come to order a fancy latte and whatnot.
+Don't take this for serious social commentary though, I am just relating some subjective, short-lived travel impressions.
+We can charge our phones and use the toilets, perfect.
+12h We go a little bit further in the village in search for a place to eat.
+12h15 Picnic at a table in the village's parc. Nice garden, modern style, very recent.
+13h Go. Very windy, this is crazy. Front wind. Ugh.
+13h30 Bridge to the other side. The wind as an average of about 40km/h with gusts at 60 kmh!!! This is insane. I am suffering a lot from it due to the lack of aerodynamism of my luggage setup on the bike (rear pannier bags). Some gusts are so strong that they almost stop me, I am going so slowly. PJ is going much faster than me but also for him this situation is very annoying. This is so exhausting and demotivating, mentally tough.
+14h30 Break in a parc, this wind is madness. 14h45 Go again, we want to make a break in the next town to make a bigger pause and drink a beer there. Fulgurance linguistique: le vignoble ignoble.
+15:15 Junction where the Doux river joins the Rhone.
+15:30 Tournon-sur-Rhone. We have a beer on a terrace, a nice Fisher amber. PJ checks for hist train as he has to return home because of some obligations. On my side, I should normally continue, but I am faced with a problem. For tomorrow, the weather forecast announces strong thunderstorms combined with super strong from the South i.e. front wind with peaks at 75km/h. This would force me to make a day of pause in Valence as it would be too dangerous to ride in such conditions. But my time is unfortunately limited for this trip, and by waiting a day in Valence I would arrive too late in the South to give a visit to my family there. Therefore I take the decision to end my trip here, take a train from Valence to Vitrolles (near Marseille), and spend the rest of my days with my family in the South. I realize that this type of travel is much more pleasant when one doesn't have tight time constraints to finish. Due to the intrinsicly high variability of this way of travelling (weather, technical problems, physical state, motivation, road conditions, etc.) it is much better to have large flexibility. There is enough bodily physical constraints, no need for extra psychological ones on the mind.
+16:30 We take a nice picture of the two of us together using the timer of the camera. Then we go, there are about 20km from here to the center of Valence. 
+The f*ing front wind has not calmed down. Ahhhhhhhhhhh. Aside from that the path was very good today.
+Slight change in architecture, roofs with big curved orange tiles typical of the South of France.
+Exhaustion, I'm dying here. PJ is far in front, he has to catch his train early.
+17:45 Hydro-powerplant of Valence. This is so challenging, I am gathering my forces. PJ is waiting for me at the station before his train departs, but I will not be able to make it in time. I must also hurry a bit if I want to catch my own train. 18:00 Entering Valence. I get stuck in a park whose plan indicates an exit bridge that does not yet exist. So annoying. I rush towards the city center and the train station. I buy a train ticket (man those machines are so unpractical to use).
+18:42 TER train departs. The bike trip is over. This all went so fast from the realization that I would not be able to finish to now. It is defeat in a way, I am a bit sad about it. On the other hand I am happy that I will be able to see my family in the South of France. And it was still a nice trip and a good endeavour. Also, I will definitely take revenge someday, I will finish this trip from Valene to the Mediterranean sea, mark my words.
+21:04 Train arrives at Vitrolles. My aunt Katia picks me up with her car. Good shower, good meal. Happy to see my cousins. (...)
+23:30 Sleep
 
-nbr clusters, inter cluster distance -> all treated as random variable
+## Days 12, 13, 14:
+Good family time. Lot of resting and eating. Some cooking. Little excursion to Marseille. (...)
 
-few reflexions:
-that type of travel is better when you have no time constraints -> it is 1. physically hard, 2. very weather dependent
+## Day 15:
+Long train journey back home, from 6h to 23h, many changes (I must take local trains since high speed ones have limited spots for bikes that are subject to reservation).
+Vitrolles -> Lyon.
+Lyon -> Geneva.
+Meeting quite a few german speaking people in the train compartments, who are also traveling with bikes. I manage to forget my helmet in the train. Sad.
+Geneva -> Zofingen.
+Emergency braking of the train. One of the spokes of the front tire of my bike gets slightly bent because I had wrongly put my bike in the holding system. I'm pissed.
+Zofingen -> Basel.
+Meeting a friend in Basel, good time. Hot chocolate, interesting discussion.
+Basel -> Zurich.
+Riding from the main station to my home. It is cold and rainy. Vacations are over.
+
+[side-quest] No McDonalds throughout the entire trip ☑️.
+
+P
+bar

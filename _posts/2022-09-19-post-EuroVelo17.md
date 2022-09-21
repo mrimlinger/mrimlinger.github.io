@@ -6,52 +6,7 @@ It is summer time, and for the little vacation time that I have this year I have
 In particular I want to install a dynamo and converter system to allow me to charge my phone while I drive during the day. This should allow me to save some time by not having to stop for too long in cafés, bars, restauranys, etc. during tge day and hence be able to ride longer.
 I have previously bought all the components, now I just need to install them on the bike. I manage to do so in quite a clean and satisfactory way. The dynamo (bottle type) is fixed to the frame and contacts with the rear wheel. The cables then run from the dynamo to a small waterproof bag located under the saddle. In there is an AC to DC converter with a USB output that goes to a powerbank to store those hard earned joules. I didn't have time to test it yet, but I hope that it will work!
 
-Material:
-- Bike (Kona Sutra)
-- Handlebar bag 7L (Ortlieb)
-- Pannier bags 2×20L (Ortlieb backroller)
--
-- Helmet
-- Front and rear battery powered lights
-- D lock and cable lock
-- Sunglasses
-- Book
-- DSLR camera with 28mm and 50mm lenses
-- Tissues
-- Wallet
-- Chargers for the phone and camera
-- Technical:
-- - Air pump
-- - Pocket toolkit
-- - Tire repair kit
-- - Chain lube
-- - Spare air chamber
-- -
-- - Tape
-- - Spare zip ties
-- - Cutter
-- - Spare AAA batteries
-- - Powerbank
-- - AC/DC dynamo converter
-- - Phone and camera charger
-- - Lighter
-- Clothing:
-- - Rain jacket
-- - Rain cycling pants
-- - Low hiking shoes
-- - Fleece sweater
-- - Cotton T-shirt x2
-- - Sport T-shirt x1
-- - Sport shorts x1
-- - Hiking pants x1
-- - Socks
-- - Merino wool beanie
-- - Merino wool tube scarf
-- Cooking
-- - Gas canister
-- - Gas stove
-- - Small cooking pot and handle
-- - Metal cup
+
 
 EV17 officially starts at Andermatt, at XXXXm in the Swiss Alps. From there, one then has to climb up to the Furkapass at 2436m, which is close to where the Rhone glacier. But before starting this journey, I have a choice to make: I can either take the train as far up as possible i.e. to Andermatt, or I can start at the four cantons lake and climb all the way up to Andermatt. I feel like the latter is a bit more fair game, therefore I decide to take up the challenge.
 
@@ -332,18 +287,17 @@ They do not pay attention to us. We amke ourselves some coffee and eat breakfast
 The path is boring without much interesting view, but the path is good.
 10h Snack break with a view on some industries on the other side.
 10h30 Serrière and its blue bridge.
-
-
-11h15 Village / little town of Andancette. We stop at the "café de la gare", an old bar and café located near the disused train station. We get ourselves some drinks, a nice hot chocolate on my side. Some local alcoholics are already present at this early hour, having a conversation with the barman.
-The place feels disturbingly "true" to the social class that frequent it. vieille France with its dated rudimentary almost poor decoration, vernished wood walls, tiled floor, dart game, table football.
-It is like an embodiment of this France of the countryside, rather poor and forgotten by all the metropolitan elites.
-Not the kind of place where hipsters come to order a fancy latte and whatnot.
+11h15 Village / little town of Andancette. We stop at the "café de la gare", an old bar and café located near the disused train station. We get ourselves some sweet drinks, a nice hot chocolate on my side. The barman is very friendly.
+Some local alcoholics are already present at this early hour, having a conversation with the barman.
+Old and rudimentary decoration (framed mirrors with advertisement drawn on it), dark vernished wood walls, tiled floor, dart game, table football.
+The place feels disturbingly representative of a certain geographic and social class of France, the one of the older / de-industrialized countryside, rather poor and forgotten by the metropolitan elites. 
+Not the kind of place where hipsters come to order a fancy latte and whatnot ahah.
 Don't take this for serious social commentary though, I am just relating some subjective, short-lived travel impressions.
 We can charge our phones and use the toilets, perfect.
 12h We go a little bit further in the village in search for a place to eat.
 12h15 Picnic at a table in the village's parc. Nice garden, modern style, very recent.
 13h Go. Very windy, this is crazy. Front wind. Ugh.
-13h30 Bridge to the other side. The wind as an average of about 40km/h with gusts at 60 kmh!!! This is insane. I am suffering a lot from it due to the lack of aerodynamism of my luggage setup on the bike (rear pannier bags). Some gusts are so strong that they almost stop me, I am going so slowly. PJ is going much faster than me but also for him this situation is very annoying. This is so exhausting and demotivating, mentally tough.
+13h30 Bridge to the other side. The wind as an average of about 40km/h with gusts at 60 kmh!!! This is insane. I am suffering a lot from it due to the lack of aerodynamism of my luggage setup on the bike (rear pannier bags). Some gusts are so strong that they almost stop me, I am going so slowly. PJ is going much faster than me, yet for him also this situation is very annoying. This is so exhausting and demotivating, mentally tough.
 14h30 Break in a parc, this wind is madness. 14h45 Go again, we want to make a break in the next town to make a bigger pause and drink a beer there. Fulgurance linguistique: le vignoble ignoble.
 15:15 Junction where the Doux river joins the Rhone.
 15:30 Tournon-sur-Rhone. We have a beer on a terrace, a nice Fisher amber. PJ checks for hist train as he has to return home because of some obligations. On my side, I should normally continue, but I am faced with a problem. For tomorrow, the weather forecast announces strong thunderstorms combined with super strong from the South i.e. front wind with peaks at 75km/h. This would force me to make a day of pause in Valence as it would be too dangerous to ride in such conditions. But my time is unfortunately limited for this trip, and by waiting a day in Valence I would arrive too late in the South to give a visit to my family there. Therefore I take the decision to end my trip here, take a train from Valence to Vitrolles (near Marseille), and spend the rest of my days with my family in the South. I realize that this type of travel is much more pleasant when one doesn't have tight time constraints to finish. Due to the intrinsicly high variability of this way of travelling (weather, technical problems, physical state, motivation, road conditions, etc.) it is much better to have large flexibility. There is enough bodily physical constraints, no need for extra psychological ones on the mind.
@@ -365,10 +319,96 @@ Long train journey back home, many changes (I must take local trains since high 
 7h Vitrolles -> Lyon.
 Lyon -> Geneva. Meeting quite a few german speaking people in the train compartments, who are also traveling with bikes. I manage to forget my helmet in the train. Sad.
 Geneva -> Zofingen. Emergency braking of the train. One of the spokes of the front tire of my bike gets slightly bent because I had wrongly put my bike in the holding system. I'm pissed.
-Zofingen -> Basel. 18:45 Meeting a friend in Basel, good time. Hot chocolate, interesting discussion.
+Zofingen -> Basel. 18:45 Meeting a friend in Basel, good time. Hot chocolate, interesting discussion, catching up on our respective lives.
 Basel -> Zurich. 23h Riding from the main station to my home. It is cold and rainy. Vacations are over.
 
 [side-quest] No McDonalds throughout the entire trip ☑️.
 
 P
-bar
+
+
+## Material:
+
+### Main equipment:
+- Bike (Kona Sutra, 14kg, steel).
+- Waterproof handlebar bag 7L (Ortlieb).
+- Waterproof pannier bags 2×20L (Ortlieb backroller).
+- String bag meant for snacks and non water sensitive food.
+- Waterproof saddle bag 2.5L (Decathlon).
+- One person tent (Decathlon Forclaz Trek MT900).
+- Helmet.
+- Front and rear battery powered lights.
+- Bottle dynamo + AC/DC dynamo to USB converter
+- D-lock and cable lock.
+- Inflatable sleeping mat.
+- Summer sleeping bag.
+
+### Clothing and accessories
+- Rain jacket
+- Rain cycling pants
+- Low hiking shoes
+- Flip flops
+- Fleece sweater
+- Cotton T-shirt x2
+- Sport T-shirt x1
+- Sport shorts x1
+- Hiking pants x1
+- Short socks x3
+- Long socks x1
+- Underwear x4
+- Merino wool beanie
+- Merino wool tube scarf
+- Adventurer hat
+- Sunglasses
+- Rugged wristwatch
+
+### Cooking
+- Gas canister
+- Gas stove
+- Small cooking pot and handle
+- Metal cup
+- Swiss pocket knife
+- Lighter
+- Fork and spoon (forgotten)
+
+### Multimedia / tech gear / misc
+- Book
+- DSLR camera with 28mm and 50mm lenses
+- Small tripod
+- Chargers for the phone and the camera
+- Powerbank
+- Wallet
+
+### Technical:
+- Handheld air pump
+- Pocket toolkit
+- Tire repair kit
+- Chain lube
+- Spare air chamber
+- Tire lever set
+- Electrical tape
+- Spare zip ties
+- Cutter
+- Spare AAA batteries
+
+### Hygiene:
+- Soap
+- Toothbrush
+- Toothpaste
+- Nail clipper
+- Tissues
+- Deodorant
+- Towel
+- Toilet glove
+
+### Health
+- Suncream
+- Basic medicine against headaches, belly ache, diarrhoea, etc.
+- Creams for muscle pain, sunburns
+- Various plasters and bandages, also for blisters
+- Disinffectant and anti-bacterial cream
+- Blood donor card
+- Tick remover
+- Tiny scissors
+- Tweezers
+- (...)

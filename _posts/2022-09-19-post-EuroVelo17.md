@@ -341,7 +341,6 @@ Basel -> Zurich. 23h Riding from the main station to my home. It is cold and rai
 
 [side-quest] No McDonalds throughout the entire trip ☑️.
 
-P
 
 
 ## Material:

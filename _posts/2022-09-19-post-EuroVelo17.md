@@ -1,3 +1,8 @@
+---
+layout: post
+title: EuroVelo 17
+date: 2022-09-19
+---
 It is summer time, and for the little vacation time that I have this year I have decided to cycle down the Rhone (Eurovelo route 17). Here is the journal of that journey:
 
 ## Preparation:
@@ -8,7 +13,7 @@ I have previously bought all the components, now I just need to install them on 
 
 
 
-EV17 officially starts at Andermatt, at XXXXm in the Swiss Alps. From there, one then has to climb up to the Furkapass at 2436m, which is close to where the Rhone glacier. But before starting this journey, I have a choice to make: I can either take the train as far up as possible i.e. to Andermatt, or I can start at the four cantons lake and climb all the way up to Andermatt. I feel like the latter is a bit more fair game, therefore I decide to take up the challenge.
+EV17 officially starts at Andermatt, at 1437m in the Swiss Alps. From there, one then has to climb up to the Furkapass at 2436m, which is close to where the Rhone glacier is. But before starting this journey, I have a choice to make: I can either take the train as far up as possible i.e. to Andermatt, or I can start at the four cantons lake (435m) and climb all the way up to Andermatt. I feel like the latter is a bit more fair game, therefore I decide to take up the challenge.
 
 ## Day 1 (03/09/2022):
 10h After settling a few more things at the flat regarding the arrival of new tenants, I finally depart from home. The weather is nice, fresh and sunny just after the rain.

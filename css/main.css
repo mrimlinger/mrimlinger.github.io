@@ -23,14 +23,18 @@ body {
 img {
   max-width: 80%;
   max-height: 75vh;
+}
+.img_post {
   display: block;
   margin-right: auto;
   margin-left: auto;
-}  
+}
 @media screen and (max-width: 600px) { 
   img {
     max-width: 100%;
     max-height: 75vh;
+  }
+  .img_post {
     display: block;
     margin-right: auto;
     margin-left: auto;

@@ -29,7 +29,7 @@ Malgré la relative fraicheur de la nuit, il fait tout de même chaud et très h
 
 Finalement la ligne d’arrivée, je termine avec un temps de 5h35min. Rien d’exceptionnel en termes de performance mais je suis tellement content d’avoir terminé la course malgré toutes les difficultés rencontrées (genou, climat, etc). L’objectif est donc bel et bien atteint ✔️. Je reçois même une très jolie médaille !
 
-<img src="../../../../assets/2018-12-09-post-Singapore-Marathon-2018/SCSM_finish.jpg" alt="" />
+<img class="img_post" src="../../../../assets/2018-12-09-post-Singapore-Marathon-2018/SCSM_finish.jpg" alt="" />
 
 Il ne me reste alors plus qu’à rentrer à l’auberge de jeunesse en boitant (on reconnait tout de suite les coureurs qui rentrent chez eux à leur démarche). Un bon repas et une petite sieste, et je dois déjà repartir pour Hong Kong. Le chemin jusqu’à l’aéroport est particulièrement douloureux : mon corps tout entier est fourbu, et mon genou me fait à présent vraiment mal. L’avion décolle à 19h (vol très confortable de Singapore Airlines - j’apprécie) et j'arrive à Hong Kong aux alentours de minuit. Il me faut encore prendre un bus jusqu’au centre-ville, puis grimper dans un taxi qui m’emmène jusqu’au campus de HKUST. Il est 3h du matin lorsque je m’effondre sur mon lit et sombre dans un profond sommeil.
 

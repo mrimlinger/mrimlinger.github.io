@@ -9,7 +9,7 @@ At the end of the Bachelor’s fourth semester, Microengineering students from E
 - Lathe: to achieve cylindric shapes. Matter is removed by a fixed chisel while the piece rotates.
 - Drill: to pierce holes, to chamfer circular edges, to drill, etc. Matter is removed by a rotating drill bit translating vertically.
 
-<img src="../../../../assets/2018-06-30-post-ETML-machining-internship/usinage_00.jpg" alt="" />
+<img class="img_post" src="../../../../assets/2018-06-30-post-ETML-machining-internship/usinage_00.jpg" alt="" />
 
 It featured a lot of techniques such as:
 - Brazing: to assembly two pieces by heating them (no fusion) with a neutral flame (oxygen+acetylen at 3200°C) and adding a filler metal (other techniques exists).
@@ -21,14 +21,14 @@ It featured a lot of techniques such as:
 - (…)
 - Safety: even if properly speaking it is not a technique, working in the workshop quickly made us realize the potential dangers of such environment. So always protect your eyes, ears, skin and avoid stupid moves.
 
-<img src="../../../../assets/2018-06-30-post-ETML-machining-internship/usinage_01.jpg" alt="" />
+<img class="img_post" src="../../../../assets/2018-06-30-post-ETML-machining-internship/usinage_01.jpg" alt="" />
 
 We also had the opportunity to see a CNC (computer numerical control) machine at work, and the way it is configured.
 
 In the end, all the pieces we produced while learning finally assembled into a clamp and a hand vise that we could bring home with us. I am pretty satisfied of mines, and they will remain as a good memory.
 
-<img src="../../../../assets/2018-06-30-post-ETML-machining-internship/usinage_02.jpg" alt="" />
+<img class="img_post" src="../../../../assets/2018-06-30-post-ETML-machining-internship/usinage_02.jpg" alt="" />
 
-<img src="../../../../assets/2018-06-30-post-ETML-machining-internship/usinage_03.jpg" alt="" />
+<img class="img_post" src="../../../../assets/2018-06-30-post-ETML-machining-internship/usinage_03.jpg" alt="" />
 
 Overall this internship has been a really enriching experience, enabling us to put in practice the content of the courses Mechanical Construction I and II. It is indeed paramount that engineers and technicians can communicate well and understand each other’s issues in order to collaborate and produce something. If it was a bit tiring at the beginning (from standing the whole day and manipulating heavy machines), I got used to it pretty fast and enjoyed this more active type of work.

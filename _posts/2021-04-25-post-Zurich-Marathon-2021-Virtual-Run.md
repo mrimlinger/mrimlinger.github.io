@@ -29,7 +29,6 @@ Time: 6h30min <br />
   overflow:hidden;
   padding-bottom:70%;
   position:relative;
-  height:0;
   margin-bottom: 1.5em;
 }
 .map-responsive iframe{

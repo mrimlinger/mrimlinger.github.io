@@ -38,6 +38,7 @@ Time: 6h30min <br />
   height:100%;
   width:100%;
   position:absolute;
+  border:none;
 }
 .img-responsive{
   max-width: 100%;

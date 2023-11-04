@@ -2,12 +2,13 @@
 	<html id="html">
 		<head>
 			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
+		<!-- link to main stylesheet -->
       			<link rel="stylesheet" type="text/css" href="/css/main.css">
-				{%if page.no_margin%}
-					{{}}
-				{%end%}
-			<!-- enable javascript -->
+			
+			{% if page.no_margin %}
+			{% else %}
+			{% endif %}
+		<!-- enable javascript -->
       			<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
       		<!-- fonts -->
       			<link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">

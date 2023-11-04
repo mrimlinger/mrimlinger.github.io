@@ -1,7 +1,7 @@
 /* body of the site -------------------------------------------------------------------------- */
 body {
   width: 40%;
-  margin: auto;
+  margin-top: 1vh;
   background-color: #ffffff;
   font-size: 11pt;
   font-family: 'Open Sans', sans-serif;
@@ -10,7 +10,7 @@ body {
 @media screen and (max-width: 600px) { 
   body {
     width: 97%;
-    margin: auto;
+    margin-top: 1vh;
     background-color: #ffffff;
     font-size: 11pt;
     font-family: 'Open Sans', sans-serif;

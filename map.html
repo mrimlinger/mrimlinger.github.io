@@ -31,7 +31,17 @@ no_margin: true
   position:absolute;
   border:none;
 }
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .map-responsive iframe{
+    height: 80%;
+    width: 80%;
+    top: 0pt;
+    left: 0pt;
+    position:absolute;
+    border:none;
+  }
+}
+@media screen and (max-width: 767px) {
   .map-responsive iframe{
     height: 100%;
     width: 100%;

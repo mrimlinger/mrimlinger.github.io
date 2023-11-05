@@ -6,41 +6,25 @@ no_margin: true
 
 <p>Note: the map is not updated in real time. </p>
 
-<div class="map-responsive-1">
-<div class="map-responsive-2">
+<div class="map-responsive">
 <iframe src="https://www.google.com/maps/d/embed?mid=1qJKXZch5WPqRvclH7j38vWeU49soRek&ehbc=2E312F&noprof=1"></iframe>
-</div>
 </div>
 
 
 <style>
-.map-responsive-1{
-  position:relative;
-  margin-bottom: 1.5em;
-  width: 50vw;
-}
-.map-responsive-2{
-  overflow:hidden;
+.map-responsive{
+  overflow: hidden;
   padding-bottom: 70%;
   position:relative;
-}
-@media screen and (max-width: 600px) {
-  .map-responsive-1{
-    position:relative;
-    margin-bottom: 1.5em;
-    width: 100%;
-  }
-  .map-responsive-2{
-    overflow:hidden;
-    padding-bottom: 70%;
-    position:relative;
-  }
-}
-.map-responsive iframe{
-  height: 100%;
+  margin-bottom: 1.5em;
   width: 100%;
+}
+
+.map-responsive iframe{
+  height: 50%;
+  width: 50%;
   top: 0pt;
-  right: 0pt;
+  left: 0pt;
   position:absolute;
   border:none;
 }

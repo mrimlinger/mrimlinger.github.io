@@ -4,7 +4,10 @@ title: Matthieu Rimlinger
 no_margin: true
 ---
 
-<p>Note: the map is not updated in real time. </p>
+<p> 
+  Note that the map is not updated in real time. <br> 
+  View in full screen here.
+</p>
 
 <div class="map-responsive">
 <iframe src="https://www.google.com/maps/d/embed?mid=1qJKXZch5WPqRvclH7j38vWeU49soRek&ehbc=2E312F&noprof=1"></iframe>
@@ -21,11 +24,23 @@ no_margin: true
 }
 
 .map-responsive iframe{
-  height: 50%;
-  width: 50%;
+  height: 85%;
+  width: 85%;
   top: 0pt;
   left: 0pt;
   position:absolute;
   border:none;
 }
+@media screen and (max-width: 600px) {
+  .map-responsive iframe{
+    height: 100%;
+    width: 100%;
+    top: 0pt;
+    left: 0pt;
+    position:absolute;
+    border:none;
+  }
+}
+
+  
 </style>

@@ -9,7 +9,7 @@ body {
 }
 @media screen and (max-width: 600px) { 
   body {
-    width: 97%;
+    width: 95%;
     margin: auto;
     background-color: #ffffff;
     font-size: 11pt;
@@ -212,6 +212,14 @@ h3 {
 }
 .post_content ul {
   list-style-type: disc;
+}
+
+/* email address*/
+.email_address {
+  font-family: 'Cutive Mono', monospace;
+  color: black;
+  font-size: 12pt;
+  margin-left: 0.5%;
 }
 
 /* other languages */

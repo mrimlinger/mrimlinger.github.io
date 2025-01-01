@@ -9,7 +9,7 @@ no_margin: false
 {% assign cnt = 0 %}
 {% assign prev_post_year = 0 %}
 {% for post in site.posts  %}
-  {% unless post.tags contains "album" or post.tags contains "private" %}
+  {% unless post.tags contains "album" %}
     {% capture curr_post_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% assign curr_post_year = curr_post_year | times: 1 %}
 

@@ -2,6 +2,7 @@
 layout: post
 title: EuroVelo 17
 date: 2022-09-19
+tag: private
 ---
 It is summer time, and for the little vacation time that I have this year I have decided to cycle down the Rhone (Eurovelo route 17). Here is the journal of that journey:
 

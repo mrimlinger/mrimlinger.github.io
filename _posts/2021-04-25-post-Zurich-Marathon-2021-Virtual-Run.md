@@ -2,6 +2,7 @@
 layout: post
 title: Zurich Marathon 2021 Virtual Run
 date: 2021-04-1
+tags: private
 ---
 
 # A path to salvation

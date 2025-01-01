@@ -8,19 +8,29 @@ no_margin: false
 <h2>Welcome</h2>
 <div class="about">
 	<p> 	
-		Hello, I'm Matthieu! <br>
-		I am currently on an eastbound cycling journey (<a href="https://www.mrimlinger.ch/map.html" target="_self">map</a>). <br>
-		Contact: rimmatt98@ &#60 the email service offered by Google &#62 <br>
-		<br>
-		Mindset: le bougre est tenace.
+		Hello, I'm Matthieu!
+  </p>
+    I am an electrical engineer with a wide range of technical interests. <br>
+    In my free time I enjoy reading, practicing endurance sports and being outdoors.
+  </p>
+  <p>
+		After graduating from ETH Zurich, I went on a cycling journey accross Eurasia 
+    <!-- (<a href="https://www.mrimlinger.ch/map.html" target="_self">see the map</a>). <br> -->
+    (<a href="https://www.google.com/maps/d/edit?mid=1nWznNafLde4R_k1n2Z_DIhWn-cDoF4o&usp=sharing" target="_blank">see the map</a>). <br>
+    I am currently looking for my next professional chapter.
+  </p>
+  <p>
+		Contact: <span class="email_address">firstname.lastname@alumni.ethz.ch</span>
+    <!-- rimmatt98@ &#60 the email service offered by Google &#62 -->
 	</p>
 </div>
+
 
 <h2>Latest posts</h2>
 <ul class="post_list">
   {% assign count = 0 %}
   {% for post in site.posts %}
-    {% unless post.tags contains "album" or count >= page.nbr_posts%}
+    {% unless post.tags contains "album" or post.tags contains "private" or count >= page.nbr_posts%}
       <li>
         <span class="post_date">{{ post.date | date_to_string }} >> </span>
         <a href="{{ post.url }}">{{ post.title }}</a>
@@ -30,6 +40,8 @@ no_margin: false
   {% endfor %}
 </ul>
 
+
+<!--
 <h2>Gallery</h2>
 <ul class="album_list">
   {% for post in site.posts %}
@@ -42,3 +54,4 @@ no_margin: false
     {% endif %}
 	{% endfor %}
 </ul>
+-->

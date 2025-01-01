@@ -31,29 +31,33 @@
       			<meta name="viewport" content="width=device-width, initial-scale=1">
     	</head>
 		<body id="body">
-        <div id="wrapper">
-        <header>
-          <h1>Matthieu Rimlinger</h1>
-        </header>
-			  <nav>
-          <a href="/">Home</a> -
-          <a href="/cv/cv_rimlinger_matthieu.pdf">CV</a> - 
-          <a href="/blog/blog.html">Blog</a> -
-          <a href="/gallery/gallery.html">Gallery</a>
-        </nav>
-        
-			  <div class="container">
-			    {{ content }}
-        </div><!-- /.container -->
-      
-			  <footer>
-          <p>Copyright © <a id="year"></a> Matthieu Rimlinger</p> 
-			  </footer>
-      </body>
+			<div id="wrapper">
+				<header>
+					<h1>Matthieu Rimlinger</h1>
+				</header>
+				<nav>
+					<a href="/">Home</a> -
+					<a href="/cv/cv_blog_2025.pdf">CV</a> - 
+					<a href="/blog/blog.html">Blog</a>
+					<!-- -
+					<a href="/gallery/gallery.html">Gallery</a>
+					-->
+				</nav>
+				
+					<div class="container">
+						{{ content }}
+			</div><!-- /.container -->
+		
+				<footer>
+					<p>Copyright © <a id="year"></a> Matthieu Rimlinger</p> 
+				</footer>
+		</body>
     </div>
-    <script>
-      $(document).ready();
-      n =  new Date();
-      document.getElementById("year").innerHTML = n.getFullYear();;
-    </script>
+
+		<script>
+		$(document).ready();
+		n =  new Date();
+		document.getElementById("year").innerHTML = n.getFullYear();;
+		</script>
+
 	</html>
